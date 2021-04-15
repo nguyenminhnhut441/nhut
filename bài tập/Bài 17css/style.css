@@ -1,0 +1,14 @@
+ol {
+  background-color: darkred;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1cm;
+}

@@ -1,0 +1,30 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+div{
+    box-shadow: 3px 2px 30px;
+    width: max-content;
+    padding: 20px;
+}
+table{
+    border-collapse:collapse;
+    line-height: 25px;
+}
+td{
+  padding:0 10px;  
+}
+tr:first-child{
+    background-color: darkred;
+    color:white;
+}
+td:first-child{
+    width: 250px;
+}
+td:last-child{
+    text-align: right;
+    width: 125px;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}

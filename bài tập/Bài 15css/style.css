@@ -1,0 +1,10 @@
+input[type="text"] {
+  width: 100px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+input[type="text"]:focus {
+  background-color: yellowgreen;
+  transition: 0.5s;
+  width: 250px;
+}

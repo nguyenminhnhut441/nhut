@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    box-shadow: 1px 3px 20px;
+}
+tr:first-child,tr:last-child{
+    font-weight: bolder;
+    text-align: center;
+    background-color:pink;
+}
+#2nd_tbl > tr:first-child,tr:last-child{
+    font-weight: bolder;
+    text-align: center;
+    background-color:pink;
+}

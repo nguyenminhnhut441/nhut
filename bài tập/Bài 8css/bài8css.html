@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bài 8</title>
+</head>
+
+<body>
+    <H2> Border Color</H2>
+    <div>
+        <b>Sytax:</b> border-color:(top)(right)(bottom)(letf);
+        <br>
+        <b>Example:</b> border-color: #65C226 #7C200 #4493AD #DF127B;
+    </div>
+    <center>
+        <div id="border-color" align="center">
+            <div></div>
+            <p>Hear the top border is green(#85C226) color,<br>right border is yellow(#F7C200),<br>the bottom has
+                blue(#4493AD) <br> and Left border is pink(#DF127B) in color.</p>
+            <div></div>
+        </div>
+    </center>
+    <H2> Border Styles <b style="background-color: red;color:white; font-weight: lighter;font-size: smaller;">&nbsp
+            Important &nbsp</b></H2>
+    <div>
+        This property must be used if you are using any of the Border properties.<br>
+        Without using this border-style property you won't see any border at all.<bR>
+        <b>Sytax:</b> border-style:(top)(right)(bottom)(letf);
+        <br>
+        <b>Example:</b> border-style: solid dotted groove double;
+    </div>
+    <center>
+        <div id="border-style" align="center">
+            <p>Hear the top border (green) has a solid style,<br>right (yellow) one has a dotted,<br>bottom (blue) one
+                has groove and<br>the left (pink) one has the double style.</p>
+        </div>
+    </center>
+    <H2> Border Width</H2>
+    <div>
+        <b>Sytax:</b> border-width:(top)(right)(bottom)(letf);
+        <br>
+        <b>Example:</b> border-width: 5px 10px 15px 20px;
+    </div>
+    <center>
+        <div id="border-style" align="center">
+            <p>Hear the top (green) border's has a width is 5 pixel,<br>right (yellow) border is 10 pixel
+                wide,<br>bottom (blue) is 15 pixel<br>and left (pink) is 20 pixel wide.</p>
+        </div>
+    </center>
+
+    <H2> Border Radius</H2>
+    <div>
+        <b>Sytax:</b> border-radius:(top)(right)(bottom)(letf);
+        <br>
+        <b>Example:</b> border-radius: 0px 30px 70px 20px;
+        <br>
+        <br>
+        For displaying round comers Border Radius property is used.<br>IE9 and Opera use the same code. For Firefox a
+        prefix<b>"-moz"</b> needs to be added before the code. And for Webkit Browers <b>"-webkit-</b> needs to be added
+        before the code.
+        <br>
+        <br>
+        Box-shadow property for all the browers.
+        <br>
+        <br>
+        <div id="bp">
+            <div id="box">
+                <p>For IE and Opera</p>
+                <p>For Mozilla Firefox</p>
+                <p>For Webkit Browers</p>
+            </div>
+            <div id="sidebox" style="text-align: right;">
+                box-shadow:0px 30px 70px 20px;<br>
+                -moz-box-shadow:0px 30px 70px 20px;<br>
+                -webkit-box-shadow:0px 30px 70px 20px;<br>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <center>
+        <div id="border-radius" align="center">
+            <p>No Border radius (0px) has been applied on the top-letf (green-pink) corner.<br>Border radius (30px) has
+                been applied on the top-right (green-yellow) corner.<br>Border radius (70px) has been applied on the
+                bottom-right (ble-yellow) corner.<br>Border radius (20px) has been applied on the bottom-letf
+                (blue-pink) corner.<br></p>
+        </div>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div id="adv-hemisphere">
+            <p>Adv-Hemisphere</p>
+        </div>
+    </center>
+    <br><br><br>
+    <div id="code">
+        <table border="0">
+            <tr>
+                <td><code><b>1</b></code></td>
+                <td><code>#adv-hemisphere{</code></td>
+            </tr>
+            <tr>
+                <td><code><b>2</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-width:4px 30px 4px 30px;</code></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-style: groove ridge dashed groove;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>4</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-color: #cc0000;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>5</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-radius:100px 100px 0 0;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>6</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-moz-border-radius:100px 100px 0 0; </code></td>
+            </tr>
+            <tr>
+                <td><code><b>7</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-webkit-border-radius:100px 100px 0 0;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>8</b></code></td>
+                <td><code>}</code></td>
+            </tr>
+        </table>
+    </div>
+    <br><br><br>
+    <center>
+        <div id="round-rectangle">
+            <p>Round Rectangle</p>
+        </div>
+    </center>
+    <br><br><br>
+    <div id="code">
+        <table border="0">
+            <tr>
+                <td><code><b>1</b></code></td>
+                <td><code>#round-rectangle{</code></td>
+            </tr>
+            <tr>
+                <td><code><b>2</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-radius:20px;</code></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-moz-border-radius: 20px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>4</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-webkit-border-radius: 20px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>5</b></code></td>
+                <td><code>}</code></td>
+            </tr>
+             </table>
+    </div>   <br><br><br>
+    <center>
+        <div id="adv-round-rectangle">
+            <p>Advance Round Rectangle</p>
+        </div>
+    </center>
+    <br><br><br>
+    <div id="code">
+        <table border="0">
+            <tr>
+                <td><code><b>1</b></code></td>
+                <td><code>#adv-round-rectangle{</code></td>
+            </tr>
+            <tr>
+                <td><code><b>2</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-width:0px 12px 0px 12px;</code></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-style: double;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>4</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-color: violet;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>5</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-radius:40px 40px 60px 60px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>6</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-moz-border-radius:40px 40px 60px 60px; </code></td>
+            </tr>
+            <tr>
+                <td><code><b>7</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-webkit-border-radius:40px 40px 60px 60px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>8</b></code></td>
+                <td><code>}</code></td>
+            </tr>
+        </table>
+    </div>   <br><br><br>
+    <center>
+        <div id="bullet">
+            <p>Bullet</p>
+        </div>
+    </center>
+    <br><br><br>
+    <div id="code">
+        <table border="0">
+            <tr>
+                <td><code><b>1</b></code></td>
+                <td><code>#bullet{</code></td>
+            </tr>
+            <tr>
+                <td><code><b>2</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-radius:20px 100px 100px 20px;</code></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-moz-border-radius: 20px 100px 100px 20px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>4</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-webkit-border-radius: 20px 100px 100px 20px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>5</b></code></td>
+                <td><code>}</code></td>
+            </tr>
+             </table>
+    </div> 
+<br><br><br>
+    <center>
+        <div id="adv-leaf">
+            <p>Advance Leaf</p>
+        </div>
+    </center>
+    <br><br><br>
+    <div id="code">
+        <table border="0">
+            <tr>
+                <td><code><b>1</b></code></td>
+                <td><code>#adv-leaf{</code></td>
+            </tr>
+            <tr>
+                <td><code><b>2</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>background:orange;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>3</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-width:4px 30px 4px 30px;</code></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-style: solid;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>4</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-color: #56c6d9 #56c6d9 #fa2192 #fa2192;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>5</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>border-radius:0 120px 0 120px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>6</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-moz-border-radius:0 120px 0 120px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>7</b></code></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<code>-webkit-border-radius:0 120px 0 120px;</code></td>
+            </tr>
+            <tr>
+                <td><code><b>8</b></code></td>
+                <td><code>}</code></td>
+            </tr>
+        </table>
+    </div>   <br><br><br>
+    <button>Subcribe Now</button>
+</body>
+
+</html>

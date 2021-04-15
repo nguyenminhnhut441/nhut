@@ -1,0 +1,5 @@
+#example1{
+    background-image: url(model_railroad_print_out_scenery_buildings1.png),url(n-scale-scenery);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,repeat;
+}

@@ -1,0 +1,46 @@
+li {
+  border: 1px solid lightyellow;
+  background-color: orangered;
+  line-height: 1.3cm;
+}
+nav {
+  background-color: orangered;
+}
+li:hover {
+  background: linear-gradient(to right, #ffffcc 0%, #ff0000 100%);
+}
+a:hover {
+  color: white;
+  text-shadow: 3px 10px 3px wheat, 3px -10px 3px gray;
+  transition: 0.5s;
+}
+body {
+  text-align: center;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+#lv2 {
+  display: none;
+}
+#lv2 > li {
+  width: 250px;
+}
+#lv1 {
+  width: 100vw;
+}
+#lv1:hover #lv2 {
+  position: absolute;
+  display: flex;
+  left: 35vw;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px;
+}

@@ -1,0 +1,31 @@
+h1 {
+  font-size: 60px;
+  text-shadow: 3px 3px 7px, 3px 3px 7px, 3px 3px 7px, -3px -3px 7px;
+}
+span {
+  display: block;
+  text-align: center;
+  position: relative;
+  left: -35vw;
+  top: 9vw;
+
+  border: 5px solid orangered;
+  padding: 10px;
+
+  background-color: darkred;
+  box-shadow: 0 0 10px #888;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 30px;
+
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transition-delay: 4s;
+  transition: 0.5s;
+}
+
+body {
+  box-shadow: 3px 4px 30px;
+  padding: 20px;
+}

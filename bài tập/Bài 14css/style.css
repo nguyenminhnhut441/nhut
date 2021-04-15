@@ -1,0 +1,32 @@
+div {
+  text-align: justify;
+  margin-left: 0%;
+  padding: 1cm 0 1cm 0;
+  float: left;
+  width: 45%;
+  height: 20%;
+
+  background-color: yellowgreen;
+  color: #fff;
+  border-top: 3px double red;
+  border-left: 3px double red;
+  border-right: 3px dashed red;
+  border-bottom: 3px dashed red;
+  border-radius: 10px;
+}
+#a {
+  margin-left: 5%;
+  padding: 1cm 0 1cm 0;
+}
+#a:hover {
+  background-color: teal;
+  position: relative;
+  display: block;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
+body {
+  width: 900px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}

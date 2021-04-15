@@ -1,0 +1,16 @@
+#newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    width: 600px;
+    box-shadow: 2px 3px 30px;
+    padding: 1%;
+    height: fit-content;
+}

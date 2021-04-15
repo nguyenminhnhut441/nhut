@@ -1,0 +1,12 @@
+body {
+  width: 75%;
+}
+p {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  background-color: red;
+  color: white;
+  width: 100%;
+  padding: 0.5cm;
+}

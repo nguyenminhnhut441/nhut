@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+ol {
+  list-style-type: none;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.3cm;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #0d90df;
+  color: aliceblue;
+  width: 100px;
+  border: 2px dashed white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+}
